@@ -1,0 +1,9 @@
+---
+- hosts: awsmanaged-host
+  tasks:
+    - name: install git
+      apt:
+        name: git
+        state: present
+
+
